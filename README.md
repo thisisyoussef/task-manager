@@ -1,22 +1,16 @@
-# task-manager
-## What is it?
+# Task Manager — Node.js Task Management App
 
-This is a simple task manager that can be used to keep track of tasks and their status.
+A task management application built with Node.js and Express with MongoDB for persistent storage. CRUD operations for tasks with a REST API.
 
-## How do I use it?
+![Node.js](https://img.shields.io/badge/Node.js-339933?logo=nodedotjs&logoColor=white)
+![MongoDB](https://img.shields.io/badge/MongoDB-47A248?logo=mongodb&logoColor=white)
 
-First, install the application by running `npm install`.
+## Tech Stack
 
-Then, you can run the application by running `node index.js`.
+Node.js, Express, MongoDB
 
-## How does it work?
+## Running
 
-The application uses Express as the web framework and MongoDB as the database.
-
-The application also uses JWT for authentication.
-
-## How do I contribute?
-
-If you would like to contribute, please create an issue or submit a pull request.
-
-
+```bash
+npm install && npm start
+```
